@@ -24,15 +24,17 @@
 
 ## 🧱 Project Structure
 ```
-titanic-survival-prediction/
+titanic-sink-analysis/
 │
-├── data/                     # Raw and cleaned datasets
-├── notebooks/                # Jupyter Notebooks for exploration and model training
-├── models/                   # Saved model files using joblib
-├── visuals/                  # Charts and decision tree images
-├── Titanic_Model_Training.ipynb  # Main notebook
-├── README.md                 # Project documentation
-└── requirements.txt          # List of required packages
+├── saved_models/                 # Trained model files (SVC, scaler, column names)
+│   ├── svc_model.pkl
+│   ├── scaler.pkl
+│   └── columns.pkl
+│
+├── Titanic-Dataset.csv          # Dataset used for training and testing
+├── Titanic_Sink.ipynb           # Main notebook for training and evaluation
+├── requirements.txt             # List of required libraries
+└── README.md                    # Project summary
 ```
 
 ---
@@ -73,8 +75,8 @@ titanic-survival-prediction/
 
 ### 1. Clone the repo:
 ```bash
-git clone https://github.com/your-username/titanic-survival-prediction.git
-cd titanic-survival-prediction
+git clone https://github.com/your-username/titanic-sink-analysis.git
+cd titanic-sink-analysis
 ```
 
 ### 2. Install dependencies:
@@ -84,7 +86,7 @@ pip install -r requirements.txt
 
 ### 3. Run the Jupyter Notebook:
 ```bash
-jupyter notebook Titanic_Model_Training.ipynb
+jupyter notebook Titanic_Sink.ipynb
 ```
 
 ---
@@ -97,8 +99,4 @@ jupyter notebook Titanic_Model_Training.ipynb
 ---
 
 ## 🧑‍💻 Author
-**Nayan Darokar**  
-
----
-
-
+**Nayan Darokar**
