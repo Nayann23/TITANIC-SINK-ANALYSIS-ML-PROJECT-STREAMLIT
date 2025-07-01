@@ -100,4 +100,4 @@ jupyter notebook Titanic_Sink.ipynb
 
 ## 🧑‍💻 Author
 **Nayan Darokar**
-![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=22&pause=1000&center=false&vCenter=true&width=435&lines=BUILDING+MODELS+THAT+MATTER...)
+
