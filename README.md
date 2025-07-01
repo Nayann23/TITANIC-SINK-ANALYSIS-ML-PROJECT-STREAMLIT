@@ -98,6 +98,10 @@ jupyter notebook Titanic_Sink.ipynb
 
 ---
 
-## 🧑‍💻 Author
-**Nayan Darokar**
 
+## 🧑‍💻 Author  
+**Nayan Darokar**  
+*Aspiring Machine Learning Engineer from India 🇮🇳*  
+> *"Start simple. Get it working. Then make it better."* – Kent Beck  
+
+---
